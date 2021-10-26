@@ -11,7 +11,7 @@ function App() {
       pswField: '',
     },
     onSubmit: value =>{
-      alert('Hello ' + formik.values.emailField + ' ' + formik.values.pswField + ' is submitted');
+      alert('Login Successful');
     },
   validate: values => {
     let errors = {};
